@@ -1,0 +1,16 @@
+{
+  "name": "healtharr",
+  "version": "1.0.0",
+  "description": "check health of all your media libraries (music & video)",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thorin8k",
+  "license": "MIT",
+  "dependencies": {
+    "@landra_sistemas/lisco": "^0.2.1-rc.8",
+    "express-handlebars": "^7.1.2",
+    "sqlite3": "^5.1.6"
+  }
+}

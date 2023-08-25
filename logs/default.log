@@ -1,0 +1,112 @@
+[2023-08-25T06:21:11.063] [INFO] log - Lang file does not exist. Create it on ./i18n/lang_{xx}.json
+[2023-08-25T06:21:11.066] [INFO] log - Using 3000 as default port. Customize via env PORT.
+[2023-08-25T06:21:11.070] [ERROR] error - (node:6622) UnhandledPromiseRejectionWarning: TypeError: Cannot use 'in' operator to search for 'strictTransportSecurity' in false
+    at getMiddlewareFunctionsFromOptions (file:///server/dev/mediachecks/healtharr/node_modules/helmet/index.mjs:408:32)
+    at helmet (file:///server/dev/mediachecks/healtharr/node_modules/helmet/index.mjs:543:31)
+    at or.config (file:///server/dev/mediachecks/healtharr/node_modules/@landra_sistemas/lisco/dist/lisco.modern.js:1:43679)
+    at or.initialize (file:///server/dev/mediachecks/healtharr/node_modules/@landra_sistemas/lisco/dist/lisco.modern.js:1:43465)
+    at ir.initUnclustered (file:///server/dev/mediachecks/healtharr/node_modules/@landra_sistemas/lisco/dist/lisco.modern.js:1:46359)
+    at ir.start (file:///server/dev/mediachecks/healtharr/node_modules/@landra_sistemas/lisco/dist/lisco.modern.js:1:45452)
+    at Object.start (file:///server/dev/mediachecks/healtharr/node_modules/@landra_sistemas/lisco/dist/lisco.modern.js:1:60102)
+    at main (file:///server/dev/mediachecks/healtharr/index.mjs:20:15)
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-08-25T06:21:11.070] [ERROR] error - (node:6622) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25T06:21:11.070] [ERROR] error - (node:6622) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[2023-08-25T06:21:11.076] [ERROR] error - (node:6622) UnhandledPromiseRejectionWarning: Error: ENOSPC: System limit for number of file watchers reached, watch '/server/dev/mediachecks/healtharr'
+    at FSWatcher.<computed> (internal/fs/watchers.js:243:19)
+    at Object.watch (fs.js:1587:34)
+    at createFsWatchInstance (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:119:15)
+    at setFsWatchListener (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:166:15)
+    at NodeFsHandler._watchWithNodeFs (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:331:14)
+    at NodeFsHandler._handleDir (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:567:19)
+    at NodeFsHandler._addToNodeFs (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:617:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /server/dev/mediachecks/healtharr/node_modules/chokidar/index.js:451:21
+    at async Promise.all (index 0)
+[2023-08-25T06:21:11.077] [ERROR] error - (node:6622) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+[2023-08-25T06:27:02.414] [INFO] log - Lang file does not exist. Create it on ./i18n/lang_{xx}.json
+[2023-08-25T06:27:02.419] [INFO] log - Using 3000 as default port. Customize via env PORT.
+[2023-08-25T06:27:02.424] [INFO] log - Server Worker running on port: 3000!
+[2023-08-25T06:27:02.424] [INFO] log - listening
+[2023-08-25T06:27:02.429] [ERROR] error - (node:7992) UnhandledPromiseRejectionWarning: Error: ENOSPC: System limit for number of file watchers reached, watch '/server/dev/mediachecks/healtharr'
+    at FSWatcher.<computed> (internal/fs/watchers.js:243:19)
+    at Object.watch (fs.js:1587:34)
+    at createFsWatchInstance (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:119:15)
+    at setFsWatchListener (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:166:15)
+    at NodeFsHandler._watchWithNodeFs (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:331:14)
+    at NodeFsHandler._handleDir (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:567:19)
+    at NodeFsHandler._addToNodeFs (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:617:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /server/dev/mediachecks/healtharr/node_modules/chokidar/index.js:451:21
+    at async Promise.all (index 0)
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-08-25T06:27:02.429] [ERROR] error - (node:7992) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25T06:27:02.429] [ERROR] error - (node:7992) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[2023-08-25T06:27:34.222] [INFO] log - Lang file does not exist. Create it on ./i18n/lang_{xx}.json
+[2023-08-25T06:27:34.224] [INFO] log - Using 3000 as default port. Customize via env PORT.
+[2023-08-25T06:27:34.230] [INFO] log - Server Worker running on port: 3000!
+[2023-08-25T06:27:34.230] [INFO] log - listening
+[2023-08-25T06:27:34.235] [ERROR] error - (node:8066) UnhandledPromiseRejectionWarning: Error: ENOSPC: System limit for number of file watchers reached, watch '/server/dev/mediachecks/healtharr'
+    at FSWatcher.<computed> (internal/fs/watchers.js:243:19)
+    at Object.watch (fs.js:1587:34)
+    at createFsWatchInstance (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:119:15)
+    at setFsWatchListener (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:166:15)
+    at NodeFsHandler._watchWithNodeFs (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:331:14)
+    at NodeFsHandler._handleDir (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:567:19)
+    at NodeFsHandler._addToNodeFs (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:617:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /server/dev/mediachecks/healtharr/node_modules/chokidar/index.js:451:21
+    at async Promise.all (index 0)
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-08-25T06:27:34.235] [ERROR] error - (node:8066) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25T06:27:34.235] [ERROR] error - (node:8066) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[2023-08-25T06:28:36.465] [ERROR] error - (node:8282) UnhandledPromiseRejectionWarning: Error: ENOSPC: System limit for number of file watchers reached, watch '/server/dev/mediachecks/healtharr/i18n/lang_es.json'
+    at FSWatcher.<computed> (internal/fs/watchers.js:243:19)
+    at Object.watch (fs.js:1587:34)
+    at createFsWatchInstance (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:119:15)
+    at setFsWatchListener (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:166:15)
+    at NodeFsHandler._watchWithNodeFs (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:331:14)
+    at NodeFsHandler._handleFile (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:395:23)
+    at NodeFsHandler._addToNodeFs (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:637:21)
+    at async /server/dev/mediachecks/healtharr/node_modules/chokidar/index.js:451:21
+    at async Promise.all (index 0)
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-08-25T06:28:36.467] [ERROR] error - (node:8282) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+[2023-08-25T06:28:36.468] [ERROR] error - (node:8282) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[2023-08-25T06:28:36.470] [ERROR] error - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at $.loadFile (file:///server/dev/mediachecks/healtharr/node_modules/@landra_sistemas/lisco/dist/lisco.modern.js:1:2660)
+    at async $.load (file:///server/dev/mediachecks/healtharr/node_modules/@landra_sistemas/lisco/dist/lisco.modern.js:1:2542)
+    at async Object.init (file:///server/dev/mediachecks/healtharr/node_modules/@landra_sistemas/lisco/dist/lisco.modern.js:1:59798)
+    at async main (file:///server/dev/mediachecks/healtharr/index.mjs:16:5)
+[2023-08-25T06:28:36.480] [INFO] log - Server Worker running on port: 3018!
+[2023-08-25T06:28:36.481] [INFO] log - listening
+[2023-08-25T06:28:52.781] [ERROR] error - (node:8333) UnhandledPromiseRejectionWarning: Error: ENOSPC: System limit for number of file watchers reached, watch '/server/dev/mediachecks/healtharr/i18n/lang_es.json'
+    at FSWatcher.<computed> (internal/fs/watchers.js:243:19)
+    at Object.watch (fs.js:1587:34)
+    at createFsWatchInstance (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:119:15)
+    at setFsWatchListener (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:166:15)
+    at NodeFsHandler._watchWithNodeFs (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:331:14)
+    at NodeFsHandler._handleFile (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:395:23)
+    at NodeFsHandler._addToNodeFs (/server/dev/mediachecks/healtharr/node_modules/chokidar/lib/nodefs-handler.js:637:21)
+    at async /server/dev/mediachecks/healtharr/node_modules/chokidar/index.js:451:21
+    at async Promise.all (index 0)
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2023-08-25T06:28:52.783] [ERROR] error - (node:8333) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+[2023-08-25T06:28:52.783] [ERROR] error - (node:8333) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[2023-08-25T06:28:52.790] [INFO] log - Server Worker running on port: 3018!
+[2023-08-25T06:28:52.790] [INFO] log - listening
+[2023-08-25T06:51:49.648] [INFO] log - Server Worker running on port: 3018!
+[2023-08-25T06:51:49.651] [INFO] log - listening
+[2023-08-25T06:53:11.482] [INFO] log - Server Worker running on port: 3018!
+[2023-08-25T06:53:11.484] [INFO] log - listening
+[2023-08-25T06:56:39.847] [INFO] log - Server Worker running on port: 3018!
+[2023-08-25T06:56:39.849] [INFO] log - listening
+[2023-08-25T07:08:10.270] [INFO] log - Server Worker running on port: 3018!
+[2023-08-25T07:08:10.271] [INFO] log - listening
+[2023-08-25T07:09:56.299] [INFO] log - Server Worker running on port: 3018!
+[2023-08-25T07:09:56.301] [INFO] log - listening
+[2023-08-25T07:18:40.971] [INFO] log - Server Worker running on port: 3018!
+[2023-08-25T07:18:40.975] [INFO] log - listening
+[2023-08-25T07:31:22.347] [INFO] log - Server Worker running on port: 3018!
+[2023-08-25T07:31:22.348] [INFO] log - listening
